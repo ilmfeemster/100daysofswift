@@ -13,6 +13,10 @@
 		001EEDBD2A7D353100AF3CA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001EEDBB2A7D353100AF3CA1 /* Main.storyboard */; };
 		001EEDBF2A7D353500AF3CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001EEDBE2A7D353500AF3CA1 /* Assets.xcassets */; };
 		001EEDC22A7D353500AF3CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001EEDC02A7D353500AF3CA1 /* LaunchScreen.storyboard */; };
+		00BFC7372A7E9D0B0021FEAC /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BFC7362A7E9D0B0021FEAC /* Country.swift */; };
+		00BFC7392A7E9D890021FEAC /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BFC7382A7E9D890021FEAC /* Countries.swift */; };
+		00BFC73B2A7E9FA90021FEAC /* consolidation6data.json in Resources */ = {isa = PBXBuildFile; fileRef = 00BFC73A2A7E9FA90021FEAC /* consolidation6data.json */; };
+		00BFC73F2A81EFC80021FEAC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BFC73E2A81EFC80021FEAC /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		001EEDBE2A7D353500AF3CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		001EEDC12A7D353500AF3CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		001EEDC32A7D353500AF3CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00BFC7362A7E9D0B0021FEAC /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		00BFC7382A7E9D890021FEAC /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		00BFC73A2A7E9FA90021FEAC /* consolidation6data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = consolidation6data.json; sourceTree = "<group>"; };
+		00BFC73E2A81EFC80021FEAC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				001EEDB52A7D353100AF3CA1 /* AppDelegate.swift */,
 				001EEDB72A7D353100AF3CA1 /* SceneDelegate.swift */,
 				001EEDB92A7D353100AF3CA1 /* ViewController.swift */,
+				00BFC7362A7E9D0B0021FEAC /* Country.swift */,
+				00BFC7382A7E9D890021FEAC /* Countries.swift */,
 				001EEDBB2A7D353100AF3CA1 /* Main.storyboard */,
+				00BFC73E2A81EFC80021FEAC /* DetailViewController.swift */,
 				001EEDBE2A7D353500AF3CA1 /* Assets.xcassets */,
 				001EEDC02A7D353500AF3CA1 /* LaunchScreen.storyboard */,
 				001EEDC32A7D353500AF3CA1 /* Info.plist */,
+				00BFC73A2A7E9FA90021FEAC /* consolidation6data.json */,
 			);
 			path = Consolidation6;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				001EEDC22A7D353500AF3CA1 /* LaunchScreen.storyboard in Resources */,
+				00BFC73B2A7E9FA90021FEAC /* consolidation6data.json in Resources */,
 				001EEDBF2A7D353500AF3CA1 /* Assets.xcassets in Resources */,
 				001EEDBD2A7D353100AF3CA1 /* Main.storyboard in Resources */,
 			);
@@ -139,7 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				001EEDBA2A7D353100AF3CA1 /* ViewController.swift in Sources */,
+				00BFC7372A7E9D0B0021FEAC /* Country.swift in Sources */,
 				001EEDB62A7D353100AF3CA1 /* AppDelegate.swift in Sources */,
+				00BFC73F2A81EFC80021FEAC /* DetailViewController.swift in Sources */,
+				00BFC7392A7E9D890021FEAC /* Countries.swift in Sources */,
 				001EEDB82A7D353100AF3CA1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY3VW6H6Q6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Consolidation6/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY3VW6H6Q6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Consolidation6/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

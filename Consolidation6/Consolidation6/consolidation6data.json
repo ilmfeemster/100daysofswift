@@ -1,0 +1,53 @@
+{
+    "countries": [{
+        "name": "China",
+        "population": "1411750000",
+        "capital": "Beijing",
+        "currency": "CNY"
+    }, {
+        "name": "India",
+        "population": "1392329000",
+        "capital": "New Delhi",
+        "currency": "INR"
+    }, {
+        "name": "United States",
+        "population": "335184000",
+        "capital": "Washington, D.C.",
+        "currency": "USD"
+    }, {
+        "name": "Indonesia",
+        "population": "277749853",
+        "capital": "Jakarta",
+        "currency": "IDR"
+    }, {
+        "name": "Pakistan",
+        "population": "220,425,254",
+        "capital": "Islamabad",
+        "currency": "PKR"
+    }, {
+        "name": "Nigeria",
+        "population": "216783400",
+        "capital": "Abuja",
+        "currency": "NGN"
+    }, {
+        "name": "Brazil",
+        "population": "203062512",
+        "capital": "Brasilia",
+        "currency": "BRL"
+    }, {
+        "name": "Bangladesh",
+        "population": "169828911",
+        "capital": "Dhaka",
+        "currency": "BDT"
+    }, {
+        "name": "Russia",
+        "population": "146424729",
+        "capital": "Moscow",
+        "currency": "RUB"
+    }, {
+        "name": "Mexico",
+        "population": "129035733",
+        "capital": "Mexico City",
+        "currency": "MXN"
+    }]
+}
