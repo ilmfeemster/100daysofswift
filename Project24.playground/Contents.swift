@@ -84,3 +84,30 @@ attributedString2.addAttribute(.font, value: UIFont.systemFont(ofSize: 16), rang
 attributedString2.addAttribute(.font, value: UIFont.systemFont(ofSize: 24), range: NSRange(location: 8, length: 1))
 attributedString2.addAttribute(.font, value: UIFont.systemFont(ofSize: 32), range: NSRange(location: 10, length: 4))
 attributedString2.addAttribute(.font, value: UIFont.systemFont(ofSize: 40), range: NSRange(location: 15, length: 6))
+
+//Consolidation 9
+extension UIView {
+    func bounceOut(duration: TimeInterval) {
+        UIView.animate(withDuration: duration) { [unowned self] in
+            self.transform = CGAffineTransform(scaleX: 0.0001, y: 0.0001)
+        }
+    }
+}
+
+extension Int {
+    func times(_ closure: () -> Void) {
+        guard self > 0 else { return }
+
+        for _ in 0 ..< self {
+            closure()
+        }
+    }
+}
+
+extension Array where Element: Comparable {
+    mutating func remove(item: Element) {
+        if let location = self.firstIndex(of: item) {
+            self.remove(at: location)
+        }
+    }
+}
